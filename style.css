@@ -1,0 +1,888 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    /* border: 1px solid red; */
+    
+}
+
+
+/********       container      ********/
+
+.container-1{
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/*******    text-section    ********/
+
+.text-section{
+    width: 55%;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+}
+
+.nav{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    /* margin-top: 50px; */
+}
+.logo{
+    height: 60px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     padding-right: 20px;
+}
+.logo img{
+    height: 60px;
+}
+.btn{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 70px;
+}
+.log{
+    height: 40px;
+    width: 110px;
+    background-color: transparent;
+    color: black;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    
+}
+.log:hover{
+    color: rgb(244, 94, 94);
+}
+
+
+.sign{
+    height: 40px;
+    width: 110px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+
+
+}
+
+
+.text-1{
+    height: 50px;
+    width: 100%;
+    margin-left: 40px;
+    margin-top: 50px;
+    
+   
+}
+.text-1 h1{
+    font-size: 40px;
+    font-weight: 900;
+  
+}
+.change:after{
+    content: "";
+    animation: change 10s linear infinite ;
+
+}
+@keyframes change {
+    0%{
+        content: "Hungry?"; 
+    }
+
+    10%{
+        content: "Unexpected guest?";
+
+    }
+    25%{
+        content: "Cooking Gone Wrong?";
+    }
+    50%{
+        content: "Movie Marathon?"; 
+    }
+    75%{
+        content: "Game Night?"; 
+    }
+    100%{
+        content: "late night at office?"; 
+    }
+    
+}
+
+.text-1 h2{
+    font-size: 26px;
+    font-weight: 500;
+    color: rgb(98, 97, 97);
+    padding-top: 7px;
+}
+.input-section{
+    height: 60px;
+    width: 800px;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+
+input {
+    height: 63px;
+    width: 450px;
+    border: 1px solid #Fc8019;
+    padding-left: 15px;
+    font-size: 20px;
+    
+
+}
+.text-1 button{
+    height: 63px;
+    width: 150px;
+    background-color:#Fc8019 ;
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+    border: none;
+    cursor: pointer;
+}
+
+.text-1 p{
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(150, 149, 149);
+    padding-top: 30px;
+}
+.text-1 h5{
+    font-size: 17px;
+    font-weight: 700;
+    padding-top: 15px;
+    color: rgb(68, 68, 68);
+    cursor: pointer;
+
+
+}
+.text-1 h5 span{
+    color:rgb(125, 123, 123);
+
+
+}
+
+
+
+
+/*******    photo     ********/
+
+
+
+.photo{
+    height: 530px;
+    width: 45%;
+   
+}
+.photo img{
+    height: 530px;
+    width: 570px;
+}
+
+
+
+/*******    hero-section     ********/
+
+
+.hero-section{
+    height: 400px;
+    width: 100%;
+    background-color: rgb(42, 30, 21);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.image-section{
+    height: 350px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 56px;
+}
+
+.column{
+    height:350px ;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.column img{
+    height: 230px;
+    width: 170px;
+}
+.column h1{
+    font-size: 21px;
+    color: white;
+    padding-top: 15px;
+}
+.column p{
+    font-size: 16px;
+    color: white;
+    padding-top: 10px;
+    
+}
+
+
+
+/*******    text-image-part    ********/
+
+
+
+.text-image-part{
+    height: 545px;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    background-color: white;
+
+
+}
+
+
+
+
+/*******    restaurant-text     ********/
+
+
+.restaurant-text{
+    height: 300px;
+    width: 30%;
+    margin-top: 90px;
+    margin-left: 50px;
+}
+.restaurant-text h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+.restaurant-text p{
+    font-size: 21px;
+    font-weight: 500;
+    color: rgb(128, 126, 126);
+    padding-top: 20px;
+}
+
+
+.store {
+    height: 150px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 40px;
+
+}
+.store img{
+    height: 110px;
+    width: 210px;
+    cursor: pointer;
+
+
+
+}
+.apple img{
+    height:100px;
+    width: 210px;
+    margin-top:10px ;
+    margin-right: 20px;
+    cursor: pointer;
+
+
+
+}
+.restaurant-text ul{
+    list-style: none;
+}
+
+
+
+/*******    mobile-photo     ********/
+
+
+
+.mobile-photo{
+    height: 570px;
+    width:70% ;
+    display: flex;
+    align-items: center;
+
+}
+
+.mobile-1 {
+    height: 500px;
+    width: 400px;
+}
+.mobile-1 img{
+    height: 400px;
+    width: 400px;
+    position: relative;
+    bottom: 35px;
+    left:60px;
+}
+
+
+
+.mobile-2 {
+    height: 450px;
+    width: 400px;
+}
+.mobile-2 img{
+    height: 450px;
+    width: 400px;
+    position: relative;
+    top: 35px;
+    left: 20px;
+}
+
+
+
+
+
+/*******    last-page-1     ********/
+
+
+.last-page-1{
+    height: 550px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+
+/*******    detail-section     ********/
+
+
+.detail-section{
+    height: 450px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+
+}
+
+
+
+/*******    company     ********/
+
+
+
+.company h1{
+    font-size: 17px;
+    font-family: 600;
+    color: rgb(108, 107, 107);
+    padding-bottom: 10px;
+}
+
+.company a{
+    text-decoration: none;
+    color: white;
+}
+.company li{
+    padding-top: 15px;
+}
+.company  span li:hover{
+    transition: all ease-in-out 0.3s;
+    transform: scale(103%);
+    
+    
+}
+
+
+
+
+
+/*******    contact     ********/
+
+
+
+.contact h1{
+    font-size: 17px;
+    font-weight: 600;
+    color: rgb(108, 107, 107);
+    padding-bottom: 10px;
+}
+
+.contact a{
+    text-decoration: none;
+    color: white;
+}
+.contact li{
+    padding-top: 15px;
+}
+.contact  span li:hover{
+    transition: all ease-in-out 0.3s;
+    transform: scale(103%);
+    
+    
+}
+
+
+
+
+/*******    legal     ********/
+
+
+
+.legal h1{
+    font-size: 17px;
+    font-family: 600;
+    color: rgb(108, 107, 107);
+    padding-bottom: 10px;
+}
+
+.legal a{
+    text-decoration: none;
+    color: white;
+}
+.legal li{
+    padding-top: 15px;
+    
+}
+.legal  span li:hover{
+    transition: all ease-in-out 0.3s;
+    transform: scale(103%);
+    
+    
+}
+
+
+
+/*******    download     ********/
+
+
+.download{
+    height: 120px;
+    width: 250px;
+    margin-top: 40px;
+    cursor: pointer;
+
+    
+}
+.download img{
+    height: 120px;
+    width: 250px;
+}
+.download img:hover{
+    transition: all ease-in-out 0.3s;
+    transform:  scale(103%);
+}
+
+
+
+
+/*******    last-page-2     ********/
+
+
+
+.last-page-2{
+    height: auto;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/*******    cities     ********/
+
+
+.cities{
+    height: 1230px;
+    width: 93%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+}
+
+
+.deliver h1{
+    font-size: 18px;
+    font-family: 600;
+    color: rgb(108, 107, 107);
+    padding-bottom: 5px;
+}
+.deliver a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+.deliver li{
+    padding-top: 20px;
+}
+.deliver  span li:hover{
+    transition: all ease-in-out 0.3s;
+    transform: scale(104%);
+}
+
+.dehradun{
+    padding-top: 40px;
+}
+.dehradun a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+  
+}
+.dehradun li{
+    padding-top: 20px;
+}
+.dehradun  span li:hover{
+    transition: all ease-in-out 0.3s;
+    transform: scale(104%);
+}
+.cities ul{
+    list-style: none;
+}
+
+
+
+/*******    last-page-3     ********/
+
+
+
+.last-page-3{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    
+}
+
+
+/*******    last-logo     ********/
+
+
+.last-logo{
+    height: 70px;
+    width: 200px;
+    cursor: pointer;
+    padding-left: 30px;
+}
+.last-logo img{
+    height: 70px;
+    width: 200px;
+}
+
+
+
+/*******    swiggy-text     ********/
+
+
+.swiggy-text{
+    height: 50px;
+    width: 200px;
+}
+.swiggy-text h1{
+    font-size: 22px;
+    font-weight: 500;
+    color: white;
+}
+
+
+
+/*******    icon     ********/
+
+
+.icon-1{
+    height: 10px;
+    width: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 27px;
+    margin-right: 40px;
+    cursor: pointer;
+
+}
+.icon-1 li{
+    
+    color: white;
+}
+.last-page-3 ul{
+    list-style: none;
+}
+.icon-1 li:hover{
+    transition: all ease-in-out;
+    transform: scale(110%);
+}
+
+
+
+@media (max-width:768px) {
+
+   
+
+    .container-1{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .text-section{
+        width: 100%;
+        height: auto;
+        display: flex;
+        background-color:white;
+    }
+    .nav{
+        width: 100%;
+    }
+    .logo{
+    
+        width: 300px;
+        padding-right: 60px;
+    }
+    .logo img{
+        height: 50px;
+        width: 150px;
+    }
+    .btn{
+        width: 25%;
+        padding-left: 18px;
+    }
+    .log {
+        width: 80px;
+        font-size: 14px;
+
+    }
+    
+    .sign {
+        height: 35px;
+        width: 75px;
+
+        font-size: 13px;
+
+    }
+   
+    .text-1{
+        width: 90%;
+    }
+    .text-1 h1{
+        font-size: 35px;
+    }
+    .text-1 h2{
+        font-size: 20px;
+    }
+    .input-section{
+        width: 100%;
+    }
+    .input-section input{
+        height: 50px;
+        width: 65%;
+        font-size: 16px;
+    }
+    .input-section button{
+        width: 130px;
+        height: 50px;
+        font-size: 16px;
+    }
+    
+    .photo{
+
+        width: 100%;
+        margin-top: 300px;
+    }
+    
+    .photo img{
+        width: 100%;
+
+    }
+    .hero-section{
+        height: auto;
+
+        width: 100%;
+    }
+    .image-section{
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .column{
+    
+        width: 100%;
+    }
+    .column h1{
+        font-size: 18px;
+    }
+    .column p{
+        font-size: 14px;
+    }
+    .text-image-part{
+        height: 760px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+    }
+    .restaurant-text{
+        width: 80%;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .restaurant-text h1{
+        font-size: 50px;
+        display: flex;
+        justify-content: center;
+    }
+    .restaurant-text p{
+        font-size: 19px;
+        display: flex;
+        justify-content: center;
+    }
+    .store{
+        width: 60%;
+        margin-left: 90px;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+    .store img{
+        width: 150px;
+
+    }
+    .mobile-photo{
+        height: 330px;
+        width: 90%;
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+        margin-top: 20px;
+
+    }
+    .mobile-1{
+        height: 350px;
+        width: 70%;
+    }
+    .mobile-1 img{
+        height: 300px;
+
+        width: 180px;
+        
+    }
+    .mobile-2{
+        height:260px;
+
+        width: 70%;
+    }
+    .mobile-2 img{
+        height: 260px;
+
+        width: 180px;
+        
+    }
+    .last-page-1{
+        height: auto;
+        width: 100%;
+       
+      
+    }
+    .detail-section{
+        height: auto;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .contact{
+        margin-top: 40px;
+        margin-right: 20px;
+    }
+    .legal{
+        margin-top: 40px;
+        margin-left: 180px;
+    }
+    .download{
+        height: auto;
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 50px;
+    }
+
+    .download img{
+    height: 95px;
+    width: 250px;
+    }
+    .last-page-2{
+        height: auto;
+        width: 100%;
+        
+    }
+    .cities{
+        height: auto;
+        width: 93%;
+    }
+    li{
+        font-size: 15px;
+      
+    }
+    .last-page-3{
+        height: 220px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .last-logo{
+        height: 70px;
+        width:50%;
+        display: flex;
+        margin-top: 30px;
+    }
+    .last-logo img{
+        width: 90%;
+    }
+    .swiggy-text{
+        padding-left: 40px;
+    }
+    .swiggy-text h1{
+        font-size: 20px;
+    }
+    .icon-1{
+        height: 30px;
+        width:130px;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 40px;
+        margin-bottom: 40px;
+    }
+    .icon-1 li{
+        font-size: 25px;
+    }
+
+}
